@@ -25,10 +25,13 @@
         "prettier": "2.8.1"
     },
     "imports": {
-        "#Lib/*": "./src/lib/*.js"
+        "#Lib/*": "./src/lib/*"
     },
     "lint-staged": {
         "*.js": "eslint  --fix",
         "*.{js,md}": "prettier --write"
+    },
+    "dependencies": {
+        "npm-check": "^6.0.1"
     }
 }
